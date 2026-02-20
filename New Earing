@@ -78,21 +78,21 @@
 <div class="container">
 
     <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Gold Earrings">
+        <img src="https://github.com/PratikshaDevsecops/my-devops-project/blob/main/shopping.webp?raw=true" alt="Gold Earrings">
         <h3>Gold Stud Earrings</h3>
         <p class="price">₹499</p>
         <button>Buy Now</button>
     </div>
 
     <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Diamond Earrings">
+        <img src="https://github.com/PratikshaDevsecops/my-devops-project/blob/main/shopping.webp?raw=true" alt="Diamond Earrings">
         <h3>Diamond Drop Earrings</h3>
         <p class="price">₹999</p>
         <button>Buy Now</button>
     </div>
 
     <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Silver Earrings">
+        <img src="https://github.com/PratikshaDevsecops/my-devops-project/blob/main/shopping.webp?raw=true" alt="Silver Earrings">
         <h3>Silver Hoop Earrings</h3>
         <p class="price">₹699</p>
         <button>Buy Now</button>
