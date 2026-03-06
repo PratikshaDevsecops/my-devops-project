@@ -1,11 +1,48 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>My First DevOps Project</title>
+<title>My DevOps Project</title>
+<style>
+body{
+    font-family: Arial;
+    text-align:center;
+    background-color:#f2f2f2;
+}
+
+h1{
+    color:#2c3e50;
+}
+
+.box{
+    background:white;
+    width:400px;
+    margin:auto;
+    padding:30px;
+    margin-top:100px;
+    box-shadow:0 0 10px gray;
+}
+</style>
 </head>
 
 <body>
-<h1>Hello from Jenkins 🚀</h1>
-<p>Deployed using Jenkins and Docker</p>
-</body>
 
+<div class="box">
+<h1>🚀 My First DevOps Project</h1>
+
+<p>This project is deployed using:</p>
+
+<ul style="list-style:none;">
+<li>Git</li>
+<li>GitHub</li>
+<li>Jenkins</li>
+<li>Docker</li>
+</ul>
+
+<p><b>Author:</b> Sujit Yadav</p>
+
+<p>Learning CI/CD Pipeline</p>
+
+</div>
+
+</body>
 </html>
