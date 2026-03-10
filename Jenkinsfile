@@ -5,13 +5,13 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/YOUR_GITHUB_USERNAME/hospital-website.git'
+                git 'https://github.com/PratikshaDevsecops/my-devops-project.git'
             }
         }
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t hospital-app .'
+                sh 'docker build -t hospital-website .'
             }
         }
 
@@ -24,7 +24,7 @@ pipeline {
 
         stage('Run Container') {
             steps {
-                sh 'docker run -d -p 8081:80 --name hospital-container hospital-app'
+                sh 'docker run -d -p 8081:80 --name hospital-container hospital-website'
             }
         }
 
